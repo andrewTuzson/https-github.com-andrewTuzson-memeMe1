@@ -12,6 +12,7 @@
 		8AC494761FDEA43500EFB633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC494741FDEA43500EFB633 /* Main.storyboard */; };
 		8AC494781FDEA43500EFB633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC494771FDEA43500EFB633 /* Assets.xcassets */; };
 		8AC4947B1FDEA43500EFB633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC494791FDEA43500EFB633 /* LaunchScreen.storyboard */; };
+		8AC494A71FE29C0A00EFB633 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC494A61FE29C0A00EFB633 /* Meme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8AC494771FDEA43500EFB633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC4947A1FDEA43500EFB633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AC4947C1FDEA43500EFB633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC494A61FE29C0A00EFB633 /* Meme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8AC494701FDEA43500EFB633 /* AppDelegate.swift */,
 				8AC494721FDEA43500EFB633 /* ViewController.swift */,
+				8AC494A61FE29C0A00EFB633 /* Meme.swift */,
 				8AC494741FDEA43500EFB633 /* Main.storyboard */,
 				8AC494771FDEA43500EFB633 /* Assets.xcassets */,
 				8AC494791FDEA43500EFB633 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC494A71FE29C0A00EFB633 /* Meme.swift in Sources */,
 				8AC494731FDEA43500EFB633 /* ViewController.swift in Sources */,
 				8AC494711FDEA43500EFB633 /* AppDelegate.swift in Sources */,
 			);
