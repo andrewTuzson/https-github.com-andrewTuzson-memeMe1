@@ -30,6 +30,11 @@
                                             <action selector="pickAnImageFromAlbum:" destination="BYZ-38-t0r" id="aG6-OG-SSs"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem title="Camera" id="cDN-ER-gGu">
+                                        <connections>
+                                            <action selector="pickAnImageFromCamera:" destination="BYZ-38-t0r" id="TbY-j2-lI3"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="TOP" textAlignment="center" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="nkn-zu-Lgd">
@@ -71,9 +76,9 @@
                                 <action selector="activityView:" destination="BYZ-38-t0r" id="e2y-OZ-T3h"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="cDN-ER-gGu">
+                        <barButtonItem key="rightBarButtonItem" title="Cancel" id="gKg-Uw-2dh">
                             <connections>
-                                <action selector="pickAnImageFromCamera:" destination="BYZ-38-t0r" id="TbY-j2-lI3"/>
+                                <action selector="cancelMeme:" destination="BYZ-38-t0r" id="GxG-hS-ozh"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

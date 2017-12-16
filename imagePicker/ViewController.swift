@@ -50,6 +50,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let image = info[UIImagePickerControllerOriginalImage] as? UIImage {
             imagePickerView.image = image
+            imagePickerView.backgroundColor = .white
             self.dismiss(animated: true, completion: nil)
         }
     }
@@ -131,6 +132,12 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         self.present(controller, animated: true, completion: nil)
     }
     
+    @IBAction func cancelMeme(_ sender: Any) {
+        imagePickerView.image = nil
+        imagePickerView.backgroundColor = .black
+        topText.text = "TOP"
+        bottomText.text = "BOTTOM"
+    }
     // MARK: Struct Methods
     
     func save() {
