@@ -70,7 +70,7 @@
                                 <action selector="activityView:" destination="BYZ-38-t0r" id="e2y-OZ-T3h"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Camera" id="cDN-ER-gGu">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="cDN-ER-gGu">
                             <connections>
                                 <action selector="pickAnImageFromCamera:" destination="BYZ-38-t0r" id="TbY-j2-lI3"/>
                             </connections>
